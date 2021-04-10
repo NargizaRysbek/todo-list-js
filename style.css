@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./ladream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: medium 20px;
+}
+
+.mainBlock {
+    width: 50em;
+    background-color: rgb(54, 248, 64);
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    opacity: 0.9;
+    box-shadow: 0 0 30px white;
+
+
+}
+
+
+.mainBlock div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.textIn {
+    height: 2em;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn{
+    width: 24px;
+}
+
+
+.taskItem{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    margin-bottom: 10px;
+
+}
+
+.done{
+    text-decoration: line-through;
+}
